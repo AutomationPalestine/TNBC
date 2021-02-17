@@ -11,7 +11,7 @@ Feature: To Test Create User Functionality
     Examples: 
       | UserName | FullName    | Profile | AuthMatrix | Password | Verify Password |
       | Maker14   | Test User14  | Admin   |            | secure   | secure          |
-      | Checker15 | Test User15 | Admin   |            | secure   | secure          |
+    # | Checker15 | Test User15 | Admin   |            | secure   | secure          |
       #| Maker2   | Test  User3 | Admin   |            | secure   | secure          |
       #| Checker2 | Test User4  | Admin   |            | secure   | secure          |
       #| Maker3   | Test  User5 | Admin   |            | secure   | secure          |
