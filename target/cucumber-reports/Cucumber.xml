@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.546752">
+<testcase classname="To Test Create User Functionality" name="Create User" time="13.546752">
+<system-out><![CDATA[Given user goes to administration and users and click on Add menu...........passed
+And user enters "Checker17" and "Test User17" and selects "Admin" ,"" and enters "secure"  "secure" and clicks on Ok button.passed
+Then user goes to Approve screen and approves the record....................passed
+]]></system-out>
+</testcase>
+</testsuite>

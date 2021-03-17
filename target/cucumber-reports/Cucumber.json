@@ -1,0 +1,176 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-17T12:08:41.980Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5033295600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Create User",
+        "description": "",
+        "id": "to-test-create-user-functionality;create-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 996149300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateUserStepDefinition.quitBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 277500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5597800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GroupStepDefinition.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1123107300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user goes to administration and users and click on Add menu",
+            "match": {
+              "location": "CreateUserStepDefinition.user_goes_to_administration_and_users_and_click_on_Add_menu()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 229100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.afterSite(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1915962300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"Checker17\" and \"Test User17\" and selects \"Admin\" ,\"\" and enters \"secure\"  \"secure\" and clicks on Ok button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Checker17\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Test User17\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Admin\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"secure\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"secure\"",
+                  "offset": 87
+                }
+              ],
+              "location": "CreateUserStepDefinition.user_enters_and_and_selects_and_enters_and_clicks_on_Ok_button(String,String,String,String,String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 399400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.afterSite(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4284100500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user goes to Approve screen and approves the record",
+            "match": {
+              "location": "CreateUserStepDefinition.user_goes_to_Approve_screen_and_approves_the_record()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 174300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.afterSite(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionUserMenu"
+          },
+          {
+            "name": "@TC_09_01_AddUserScenario"
+          }
+        ]
+      }
+    ],
+    "name": "To Test Create User Functionality",
+    "description": "",
+    "id": "to-test-create-user-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TC09-User.feature",
+    "tags": [
+      {
+        "name": "@RegressionUserMenu",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
